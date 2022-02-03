@@ -1,0 +1,60 @@
+.box1, .box5, .box7 {
+background-color: rgb(236, 236, 186);
+}
+
+.box2, .box4, .box8 {
+    background-color: rgb(180, 241, 180);
+}
+
+.box3, .box6 {
+    background-color: rgb(136, 136, 226)
+}
+ body {
+     font-size: 3em;
+ }
+ h1 {
+     padding-top: 100px;
+ }
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    background-color: rgb(107, 105, 105);
+    height: 600px;
+    margin: 30px;
+    
+}
+div {
+    text-align: center;
+    border: black 1px;
+    box-shadow: black 1px;
+} 
+
+.box1 {
+    transform: rotate(-2deg);
+}
+.box2 {
+    transform: rotate(3deg);
+}
+.box3 {
+    transform: rotate(-4deg);
+}
+.box4 {
+    transform: rotate(5deg);
+}
+.box5 {
+    transform: rotate(-3deg);
+}
+.box6 {
+    transform: rotate(-4deg);
+}
+.box7 {
+    transform: rotate(-3deg);
+}
+.box8 {
+    transform: rotate(2deg);
+}
+div:hover {
+    transform: scale(1.2);
+    z-index: 10;
+}
