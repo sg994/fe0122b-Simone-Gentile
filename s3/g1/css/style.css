@@ -1,0 +1,9 @@
+.btn-primary {
+  background-color: red;
+  border: 2px solid black;
+  color: blue; }
+
+.btn-secondary {
+  background-color: red;
+  border: 2px solid black;
+  color: orange; }
