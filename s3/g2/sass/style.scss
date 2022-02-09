@@ -1,0 +1,10 @@
+@mixin caratteri {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+@mixin titoli {
+    color: orange;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
