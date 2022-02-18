@@ -37,7 +37,7 @@ function equalTo(){
 
 	document.getElementById('screen').innerHTML = ans;		
 
-	while(num.length > 0){           // per precisione, il ciclo While ancora non l'ho mai visto nella teoria, l'ho copiato.  
+	while(num.length > 0){            
     	num.pop();				
 	}
 
@@ -50,7 +50,7 @@ function equalTo(){
 function clearScr(){
 	document.getElementById('screen').innerHTML = '';
 	
-	while(num.length > 0){        // come sopra
+	while(num.length > 0){       
     	num.pop();				
 	}
 
