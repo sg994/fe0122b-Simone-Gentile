@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(218, 198, 198);
+
+}
+.btn{
+    background-color: rgb(14, 11, 11);
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: grey;   
+}
